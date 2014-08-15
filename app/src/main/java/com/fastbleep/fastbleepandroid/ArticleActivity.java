@@ -1,27 +1,13 @@
 package com.fastbleep.fastbleepandroid;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.json.JSONObject;
-
-import java.io.BufferedInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+import com.fastbleep.fastbleepandroid.api.AsyncDownload;
 
 
 public class ArticleActivity extends Activity {
@@ -39,7 +25,11 @@ public class ArticleActivity extends Activity {
 
     public void download(View view) {
         String url = urlField.getText().toString();
-        new DownloadWebPage(this, data).execute(url);
+        new AsyncDownload(this, data).execute(url);
+
+        // use return
+
+        //new FastbleepAPI().getArticlesByCategoryId(6);
     }
 
     public void gotoListView(View view) {
@@ -48,4 +38,6 @@ public class ArticleActivity extends Activity {
         myIntent.putExtra("key", value); //Optional parameters
         this.startActivity(myIntent);
     }
+
+    // function parseJson
 }
