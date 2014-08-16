@@ -14,18 +14,15 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 //public class AsyncDownload<IJsonHandler> extends AsyncTask <String, Void, String> {
-public class AsyncDownload extends AsyncTask <String, Void, String> {
+public class AsyncHttpRequest extends AsyncTask<String, Void, String> {
     private TextView dataField;
     private Context context;
     private IJsonHandler handler;
 
-    public AsyncDownload(Context context, TextView dataField) {
+    public AsyncHttpRequest(Context context) {
         this.context = context;
-        this.dataField = dataField;
     }
 
-
-    //check Internet conenction.
     private void checkInternetConenction() {
         ConnectivityManager check = (ConnectivityManager) this.context.getSystemService(context.CONNECTIVITY_SERVICE);
         if (check != null) {
@@ -75,7 +72,6 @@ public class AsyncDownload extends AsyncTask <String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        //handler.handleResult(result);
-        this.dataField.setText(result);
+       // handler.handleResult(result);
     }
 }

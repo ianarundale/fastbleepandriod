@@ -8,5 +8,6 @@
     <string name="click">Click here</string>
     <string name="google">Google</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_http">HttpActivity</string>
 
 </resources>

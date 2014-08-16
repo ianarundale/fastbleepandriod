@@ -7,5 +7,5 @@ import org.json.JSONObject;
  */
 public interface IJsonHandler {
 
-    public void handleResult();
+    public void handleResult(JSONObject jsonResponse);
 }
