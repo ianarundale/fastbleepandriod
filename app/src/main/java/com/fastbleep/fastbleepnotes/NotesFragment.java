@@ -46,13 +46,10 @@ public class NotesFragment extends ListFragment implements OnTaskCompleted {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        numbers_text.add("one");
-        numbers_text.add("two");
-        numbers_text.add("three");
-
-
         this.adapter = new ArrayAdapter<String>(inflater.getContext(), android.R.layout.simple_list_item_1, numbers_text);
         setListAdapter(this.adapter);
+
+        download();
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }
