@@ -135,7 +135,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
                 return new FavoritesFragment();
             }
 
-            return new MapFragment();
+            return new CustomMapFragment();
             //return PlaceholderFragment.newInstance(position + 1);
         }
 
