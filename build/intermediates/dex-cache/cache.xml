@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-6cb0513f2429daefbb23c26849b9660c122d3a48.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/classes-34305d568cd10f593de6d7de0d700e493543162b.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/classes-2515a1b311d4cbdd4c243c76a219cd628c7c1691.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/classes-293666af9f0e96b201d9792950d93bb888987b7e.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-a019f01e660474639e07c9f5f203671e12a27b32.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/pre-dexed/debug/classes-8c3ab034e2e0f1523881fdd97252824cc09dbe5f.jar"
+        jar="/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+
+</pre-dex-items>

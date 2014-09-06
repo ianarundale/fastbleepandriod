@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fastbleep.fastbleepnotes.ViewArticleActivity" >
+    <item android:id="@+id/action_add_fav"
+        android:title="@string/action_add_fav"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
+<!-- From: file:/Users/ianar/AndroidStudioProjects/FastbleepforAndroid/app/src/main/res/menu/view_article.xml -->
