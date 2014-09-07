@@ -50,6 +50,14 @@
         <activity
             android:name=".ViewArticleActivity"
             android:label="@string/title_activity_view_article" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".AboutFastbleepActivity"
+            android:label="@string/title_activity_about_fastbleep" >
+        </activity>
     </application>
 
 </manifest>
