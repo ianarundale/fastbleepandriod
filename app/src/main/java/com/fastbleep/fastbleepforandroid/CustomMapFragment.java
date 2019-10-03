@@ -71,7 +71,7 @@ public class CustomMapFragment extends MapFragment implements IOnTaskCompleted {
         }
 
         // append the current location to the google maps URL
-        String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=distance&types=hospital&sensor=true&key=AIzaSyDdvHoGGT7Joh240-3iwVdub8Y0VMtqzQ8&location=";
+        String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?rankby=distance&types=hospital&sensor=true&key=<key>&location=";
 
 
         url = url + String.valueOf(lat) + "," + String.valueOf(lng);
